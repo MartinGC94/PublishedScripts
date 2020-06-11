@@ -27,8 +27,6 @@
 .RELEASENOTES
 #>
 
-
-#Requires -Version 5
 <#
 .Synopsis
     Shows parameter sets for a given command.
@@ -59,6 +57,10 @@
 .NOTES
     Information for commands from modules that hasn't been imported yet will be inaccurate.
 #>
+
+#Requires -Version 5
+
+
 [CmdletBinding(DefaultParameterSetName="ByName")]
 
 Param
